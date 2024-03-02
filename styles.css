@@ -1,0 +1,33 @@
+:root {
+    --dark-red: #e15a2d; 
+    --cool-orange: #F3B95F;
+
+    /* yellow */
+    --sick-yellow: #FDE767;
+    --turbulent-blue: #6895D2;
+}
+
+.stApp {
+    background-color: var(--turbulent-blue);
+}
+
+/* Title span */
+span.css-10trblm.e16nr0p30 {
+    color: var(--sick-yellow);
+    font-size: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Title div */
+div.css-znku1x {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button div */
+.row-widget.stButton {
+    display: flex;
+    justify-content: center;
+}
