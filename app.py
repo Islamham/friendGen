@@ -7,11 +7,17 @@ st.title("Friend Gen")
 
 col1, col2, col3 = st.columns(3)
 
-placement_options_dict = { #Configure mask areas for image insertion
-    "Wall behind desk": (3, 3, 506, 137), #x, y, width, height
-    "On top of desk": (78, 60, 359, 115),
-    "Beneath desk": (108, 237, 295, 239),
-    "Custom": (0, 0, 200, 100), 
+placement_options_dict = { # Configure mask areas for image insertion
+    "1": (78, 60, 359, 115),  #x, y, width, height
+    "1": (108, 237, 295, 239),
+    "2": (0, 0, 200, 100),
+    "3": (0, 0, 0, 0),
+    "4": (0, 0, 0, 0), 
+    "5": (0, 0, 0, 0), 
+    "6": (0, 0, 0, 0), 
+    "7": (0, 0, 0, 0), 
+    "8": (0, 0, 0, 0), 
+    "9": (0, 0, 0, 0), 
 }
 
 placement_options = list(placement_options_dict)
@@ -33,20 +39,11 @@ with col1:
 with col2:
     st.subheader("Insertion parameters")
     
-    placement_area = st.radio("Placement area:", 
+    st.image("img/basic-layout.png", width=200)
+
+    placement_area = st.multiselect("Placement area:", 
         placement_options,
     )
-    
-    with st.expander("Custom:", expanded=False):
-        
-        mask_dimensions = placement_options_dict[placement_area]
-    
-        mask_x = st.number_input("Mask x position", value=mask_dimensions[0])
-        mask_y = st.number_input("Mask y position", value=mask_dimensions[1])
-        mask_width = st.number_input("Mask width", value=mask_dimensions[2])
-        mask_height = st.number_input("Mask height", value=mask_dimensions[3])
-    
-    prompt_text = st.text_area("Object to add:", height=100, help="The prompt text")
     
     generate_button = st.button("Generate")
     
