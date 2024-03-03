@@ -57,7 +57,7 @@ def get_mask_image_base64(target_width, target_height, position, inside_width, i
 
 #get the stringified request body for the InvokeModel API call
 def get_titan_image_insertion_request_body(input_image_bytes, insertion_position, insertion_dimensions):
-    prompt_content = randomizer.randomizer()
+    prompt_content = "A 40-year-old happy korean man wearing, who is smiling and standing beside the person"
 
     original_image = get_image_from_bytes(input_image_bytes)
     
