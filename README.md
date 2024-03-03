@@ -10,7 +10,8 @@ Built on AWS cloud9, we used Titan Image Generator’s image mask inpainting cap
 
 # Before:
 <br>
-<img width="512" alt="image" src="https://github.com/andrewahn-ubc/friendGen/assets/efd66c1b-75cc-4c5d-91a3-05af5f211ee3">
+<img width="512" alt="image" src="https://github.com/andrewahn-ubc/friendGen/assets/115388743/286f1728-375d-4e38-9ed6-fa3593a33ce3">
+
 
 # After:
 <br>
