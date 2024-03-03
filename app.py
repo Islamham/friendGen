@@ -24,7 +24,7 @@ placement_options = list(placement_options_dict)
 
 
 with col1:
-    st.subheader("Friendless image")
+    st.subheader("Upload friendless image")
     
     uploaded_file = st.file_uploader("Select an image", type=['png', 'jpg'])
     
@@ -37,7 +37,7 @@ with col1:
     
 
 with col2:
-    st.subheader("Insertion parameters")
+    st.subheader("Where should your friends go?")
     
     st.image("img/basic-layout.png", width=200)
 
