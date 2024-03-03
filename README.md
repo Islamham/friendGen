@@ -1,5 +1,8 @@
 # friendGen
-An application that takes a photo of you and adds a friend to the photo so that you can appear more popular :) Built on AWS cloud9, using Titan Image Generator’s image mask inpainting capability displayed Streamlit UI. Our project submission for UBC CIC Hackathon 2024!
+An application that takes a photo of you and adds a friend to the photo so that you can appear more popular :) 
+<br>
+<br>
+Built on AWS cloud9, using Titan Image Generator’s image mask inpainting capability displayed Streamlit UI. Our project submission for UBC CIC Hackathon 2024!
 
 # Homepage:
 <br>
