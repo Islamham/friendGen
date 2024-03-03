@@ -5,6 +5,7 @@ import base64
 from PIL import Image
 from io import BytesIO
 from random import randint
+from randomizer import randomizer
 
 
 # STEP 2:
@@ -50,12 +51,13 @@ def get_mask_image_base64(target_width, target_height, position, inside_width, i
     #mask_image.save("mask.png") #uncomment this to see what the mask looks like
 
     return mask_image_base64
+    
 
 # STEP 4:
 
 #get the stringified request body for the InvokeModel API call
 def get_titan_image_insertion_request_body(input_image_bytes, insertion_position, insertion_dimensions):
-    prompt_content = "A 40-year-old happy korean man wearing a green shirt and black pants, who is smiling and standing beside the person"
+    prompt_content = randomizer.randomizer()
 
     original_image = get_image_from_bytes(input_image_bytes)
     
