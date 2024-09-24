@@ -27,7 +27,7 @@ FriendGen’s architecture is designed to deliver a seamless experience, using a
 
 2. **Backend Processing (Python, Langchain, AWS Bedrock)**:
    - **Python**: The core programming language used to manage data flow and processing between the user interface and AI models.
-   - **Langchain**: Enhances the AI’s ability to fine-tune prompts and pull in relevant data, ensuring that your generated friends fit perfectly into the photo.
+   - **Langchain**: Provides tools and abstractions to improve the customization, accuracy, and relevancy of the information LLMs generate
    - **AWS Bedrock**: Hosts Titan Image Generator, the powerhouse behind the inpainting capabilities that insert your AI friend into the photo with realistic detail.
 
 3. **AI Models (Stability AI, Claude v2.1)**:
