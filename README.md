@@ -1,4 +1,4 @@
-# friendGen
+# friendGen 👯
 
 Don't have any friends? We got you. **friendGen** is an application that takes in a photo of you and adds a friend to it using generative AI. This way, at least you'll be popular on social media! 😭 
 
